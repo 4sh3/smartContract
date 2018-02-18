@@ -9,10 +9,7 @@ To do an ICO I recommend you to set an SC on the Ethereum Blockchain, you only h
 
 ## How to use the Smart Contract
 1. Upload the Smart Contract to an Address with the "Quanity of tokens", "name_of_the_Token" and "symbol_of_the_token".
-Example:
-[FOTO]
 2. I recommend you to test the Smart Contract on live.
-[FOTO]
 3. Show the address of the Smart Contract in your website and let the visitors exchange their Ethers for your Tokens automatically.
 
 If you have doubts about how to use the SC you can find me on LinkedIn: https://www.linkedin.com/in/jordi-piqueras-50b439b9/.
@@ -21,30 +18,34 @@ More info about Ethereum and Smart Contracts: https://solidity.readthedocs.io/en
 
 ## (Optional) Test the Smart Contract in a Test Environment
 1. Copy the content of the file TokenERC20.sol and paste on this webeditor URL: (https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js).
+
 2. Configure the editor:
-[Foto 1: Apartado Compile: http://prntscr.com/ig8773]
+http://prntscr.com/ig8773
 Mark the Option Autocompile
 And press Start Compile to "upload" the contract.
-
-[Foto 2: Apartado Run: http://prntscr.com/ig86ct]
+http://prntscr.com/ig86ct
 Environment: JavaScript VM
 Account: Choose one for example with 100 Ethers to do the Test.
 Gast Limit: 3000000
 * Each Smart Contract on Ethereum consume Gas.
 Value: 0
 Chose the browser/TokenERC20.sol
+
 3. Complete the "Create input" with you Token data:
-[Foto 3: Example] http://prntscr.com/ig8kbw 
+http://prntscr.com/ig8kbw 
 The structure of the data is: quantity of tokens, "Name of the Token", "Symbol of the token"
 Example with Bitcoin: 100, "Bitcoin", "BTC"
+
 4. Run the Code, this will execute the constructor method "function TokenERC20".
+
 5. Copy the address of the tokens and paste on the input "balanceOf" with quotes to see the balance of the address, press the button to see it.
-[Foto Initial BalanceOf: http://prntscr.com/ig8lr4]
+http://prntscr.com/ig8lr4
+
 6. Test the function transfer: Complete input Create and after that put an address on the input transfer and a value ("address", value):
 Example: "0x14723a09acff6d2a60dcdf7aa4aff308fddc160c", 2
 You can use another Test address: "0x14723a09acff6d2a60dcdf7aa4aff308fddc160c"
 After do the transfer verify the token balance of this address.
-[Foto 5: Transfer and Balance] http://prntscr.com/ig8rbb
+http://prntscr.com/ig8rbb
 You can test transfers modifying the input "account address" and the input "transfer".
 http://prntscr.com/ig8rzt
 http://prntscr.com/ig8s1o
