@@ -20,7 +20,7 @@ More info about Ethereum and Smart Contracts: https://solidity.readthedocs.io/en
 1. Copy the content of the file TokenERC20.sol and paste on this webeditor URL: (https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js).
 
 2. Configure the editor:
-http://prntscr.com/ig8773
+![alt text](https://image.prntscr.com/image/TP4aPTieR9ehhPTMIzEDfA.png)
 Mark the Option Autocompile
 And press Start Compile to "upload" the contract.
 http://prntscr.com/ig86ct
