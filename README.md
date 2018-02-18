@@ -9,7 +9,7 @@ To do an ICO I recommend you to set an SC on the Ethereum Blockchain, you only h
 
 ## How to use the Smart Contract
 1. Upload the Smart Contract to an Address with the "Quanity of tokens", "name_of_the_Token" and "symbol_of_the_token".
-2. I recommend you to test the Smart Contract on live.
+2. I recommend you to test the Smart Contract to understand it.
 3. Show the address of the Smart Contract in your website and let the visitors exchange their Ethers for your Tokens automatically.
 
 If you have doubts about how to use the SC you can find me on LinkedIn: https://www.linkedin.com/in/jordi-piqueras-50b439b9/.
@@ -23,27 +23,21 @@ https://theethereum.wiki/w/index.php/ERC20_Token_Standard
 
 2. Configure the editor:
 
+Mark the Option Autocompile and press "Start Compile" to upload the contract.
+
 ![alt text](https://image.prntscr.com/image/TP4aPTieR9ehhPTMIzEDfA.png)
 
+* Each Smart Contract on Ethereum consume Gas then you need to define a number.
 
-Mark the Option Autocompile
-And press Start Compile to "upload" the contract.
+Chose the TokenERC20 contract
 
 ![alt text](https://image.prntscr.com/image/E928A52IT2KJFa7l1uKTZw.png)
 
-Environment: JavaScript VM
-Account: Choose one for example with 100 Ethers to do the Test.
-Gast Limit: 3000000
-* Each Smart Contract on Ethereum consume Gas.
-Value: 0
-Chose the browser/TokenERC20.sol
-
 3. Complete the "Create input" with you Token data:
-
-![alt text](https://image.prntscr.com/image/pRoJ0EcTRMua5GBs5Wecjw.png)
-
 The structure of the data is: quantity of tokens, "Name of the Token", "Symbol of the token"
 Example with Bitcoin: 100, "Bitcoin", "BTC"
+
+![alt text](https://image.prntscr.com/image/pRoJ0EcTRMua5GBs5Wecjw.png)
 
 4. Run the Code, this will execute the constructor method "function TokenERC20".
 
