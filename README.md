@@ -1,5 +1,5 @@
 ## Project Intro
-My name is Jordi Piqueras and I have created this Smart Contract to help the people that wants to do an ICO (Initial Coing Offering) with the ERC20 Standard to get cryptos for their projects. 
+My name is Jordi Piqueras and I have created this Smart Contract to help the people that wants to do an ICO (Initial Coin Offering)/Create a token with the ERC20 Standard to get cryptocurrencies from investors to create and improve their projects. 
 
 **If you want to help me you can validate my aptitudes on LinkedIn and recommend me.**
 
