@@ -22,13 +22,14 @@ https://theethereum.wiki/w/index.php/ERC20_Token_Standard
 1. Copy the content of the file TokenERC20.sol and paste on this webeditor URL: (https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js).
 
 2. Configure the editor:
+
 ![alt text](https://image.prntscr.com/image/TP4aPTieR9ehhPTMIzEDfA.png)
 
 
 Mark the Option Autocompile
 And press Start Compile to "upload" the contract.
-![alt text](https://image.prntscr.com/image/E928A52IT2KJFa7l1uKTZw.png)
 
+![alt text](https://image.prntscr.com/image/E928A52IT2KJFa7l1uKTZw.png)
 
 Environment: JavaScript VM
 Account: Choose one for example with 100 Ethers to do the Test.
@@ -38,8 +39,8 @@ Value: 0
 Chose the browser/TokenERC20.sol
 
 3. Complete the "Create input" with you Token data:
-![alt text](https://image.prntscr.com/image/pRoJ0EcTRMua5GBs5Wecjw.png)
 
+![alt text](https://image.prntscr.com/image/pRoJ0EcTRMua5GBs5Wecjw.png)
 
 The structure of the data is: quantity of tokens, "Name of the Token", "Symbol of the token"
 Example with Bitcoin: 100, "Bitcoin", "BTC"
@@ -47,16 +48,17 @@ Example with Bitcoin: 100, "Bitcoin", "BTC"
 4. Run the Code, this will execute the constructor method "function TokenERC20".
 
 5. Copy the address of the tokens and paste on the input "balanceOf" with quotes to see the balance of the address, press the button to see it.
-![alt text](https://image.prntscr.com/image/RlDWd-ueQYa98tgXoK_5TQ.png)
 
+![alt text](https://image.prntscr.com/image/RlDWd-ueQYa98tgXoK_5TQ.png)
 
 6. Test the function transfer: Complete input Create and after that put an address on the input transfer and a value ("address", value):
 Example: "0x14723a09acff6d2a60dcdf7aa4aff308fddc160c", 2
 You can use another Test address: "0x14723a09acff6d2a60dcdf7aa4aff308fddc160c"
 After do the transfer verify the token balance of this address.
+
 ![alt text](https://image.prntscr.com/image/8H19CEOJTZuX0J5r4UxSew.png)
 
-
 You can test transfers modifying the input "account address" and the input "transfer".
+
 ![alt text](https://image.prntscr.com/image/SA7gthGYS3uv78F_0lYyQQ.png)
 ![alt text](https://image.prntscr.com/image/li4E2NJ9ReCfhuQFoXnQkw.png)
