@@ -1,7 +1,7 @@
 ## Project Intro
 My name is Jordi Piqueras and I have created this Smart Contract to help the people that wants to do an ICO (Initial Coin Offering)/Create a token with the ERC20 Standard to get cryptocurrencies from investors to create and improve their projects. 
 
-**If you want to help me you can validate my aptitudes on LinkedIn and recommend me.**
+**If you want to help me you can add me on LinkedIn and recommend me. Thanks you so much.**
 
 ## Understand the Smart Contract (SC).
 The main functionality of this Smart Contract is to exchange Ethers (Ethereum) for ICO Tokens.
@@ -57,6 +57,6 @@ You can test transfers modifying the input "account address" and the input "tran
 ![alt text](https://image.prntscr.com/image/SA7gthGYS3uv78F_0lYyQQ.png)
 ![alt text](https://image.prntscr.com/image/li4E2NJ9ReCfhuQFoXnQkw.png)
 
-## Comunity
+## Community
 Special mention to Platzi Team to introduce me in the Blockchain tech.
 https://platzi.com/cursos/
