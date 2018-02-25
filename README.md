@@ -56,3 +56,7 @@ You can test transfers modifying the input "account address" and the input "tran
 
 ![alt text](https://image.prntscr.com/image/SA7gthGYS3uv78F_0lYyQQ.png)
 ![alt text](https://image.prntscr.com/image/li4E2NJ9ReCfhuQFoXnQkw.png)
+
+## Comunity
+Special mention to Platzi Team to introduce me in the Blockchain tech.
+https://platzi.com/cursos/
